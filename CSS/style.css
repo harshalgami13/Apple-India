@@ -99,7 +99,7 @@ ul{
 }
 .section1 .link span a{
     font-size: 22px;
-    padding: 0 30px;
+    padding: 0 20px;
     text-decoration: none;
 }
 
@@ -124,7 +124,20 @@ ul{
         display: none;
     }
 
-
+    .section1{
+        width: 80%;
+        height: 100vh;
+        margin: auto;
+        padding: 25px 0;
+        text-align: center;
+        min-height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/iphone12pro.1.0.png);
+    }
+    .section1 .link span a{
+        padding: 0 15px;
+    }
 }
 
 
