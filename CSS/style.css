@@ -1,0 +1,144 @@
+.header1{
+    width: 100%;
+    position: sticky;
+    line-height: 3rem;
+    background-color: var(--dark-gray);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+ul li a:hover{
+    color: var(--main-color);
+}
+ul li a{
+    text-decoration: none;
+    color: var(--main-color) !important;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 10px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+ul li.cart a i{
+    font-size: 19px !important;
+}
+ul li.logo a{
+    background-size: 18px 42px;
+    vertical-align: middle;
+    padding: 9px;
+    background-repeat: no-repeat;
+    background-image: url(../Asstes/Apple\ logo.svg);
+    background-position: center;
+}
+.mobileview{
+    display: none;
+    text-align: center;
+}
+ul li.cart a{
+    background-size: 18px 42px;
+    vertical-align: middle;
+    padding: 9px;
+    background: url(../Asstes/cart.svg) no-repeat;
+    background-position: center;
+}
+.navmenu{
+    display: none;
+}
+.desktop-view li{
+    text-align: center;
+    width: 30px;
+}
+.mobileview li{
+    line-height: 25px;
+}
+ul{
+    padding: 0 !important;
+}
+
+/* header2 begin */
+.header2{
+    text-align: center;
+    background-color: #f5f5f7;
+    padding: 15px 0;
+    color: #3f3f3f;
+    font-weight: 400;
+    font-size: 14px;
+}
+.header2 span{
+    color: blue;
+    font-weight: 500;
+}
+
+/* section1 begin */
+.section1{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    padding: 25px 0;
+    text-align: center;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/iphone12pro.1.1.png);
+}
+.section1 .heading{
+    font-size: 56px;
+    font-weight: 600;
+}
+.section1 .heading2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.section1 .price{
+    font-weight: 400;
+    font-size: 18px;
+    color: #a0a0a0;
+    padding: 8px 0;
+}
+.section1 .link span a{
+    font-size: 22px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    ul{
+        padding: 0 15px;
+    }
+    
+    .navmenu{
+        display: inline;
+    }
+    .links{
+        display: none;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+:root{
+    --main-color: #b3b3b3;
+    --dark-gray: #333;
+}
+body{
+    scroll-behavior: smooth;
+}
