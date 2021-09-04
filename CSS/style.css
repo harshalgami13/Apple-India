@@ -61,7 +61,7 @@ ul{
 .header2{
     text-align: center;
     background-color: #f5f5f7;
-    padding: 15px 0;
+    padding: 15px;
     color: #3f3f3f;
     font-weight: 400;
     font-size: 14px;
@@ -71,11 +71,11 @@ ul{
     font-weight: 500;
 }
 
-/* section1 begin */
+/* section1, section2 and section3 begin */
 .section1{
     width: 80%;
     height: 100vh;
-    margin: auto;
+    margin: 10px auto;
     padding: 25px 0;
     text-align: center;
     min-height: 500px;
@@ -83,73 +83,169 @@ ul{
     background-position: center;
     background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/iphone12pro.1.1.png);
 }
-.section1 .heading{
+.section1 .heading,
+.section2 .heading,
+.section3 .heading{
     font-size: 56px;
     font-weight: 600;
 }
-.section1 .heading2{
+.section1 .heading2,
+.section2 .heading2,
+.section3 .heading2{
     font-size: 30px;
     font-weight: 400;
 }
-.section1 .price{
+.section1 .price,
+.section2 .price,
+.section3 .price{
     font-weight: 400;
     font-size: 18px;
     color: #a0a0a0;
     padding: 8px 0;
 }
-.section1 .link span a{
+.section1 .link span a,
+.section2 .link span a,
+.section3 .link span a{
     font-size: 22px;
     padding: 0 20px;
+    text-decoration: none;
+}
+.section2{
+    width: 84%;
+    height: 100vh;
+    margin: 10px auto;
+    padding: 25px 0;
+    text-align: center;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/iphone12pro.2.1.png);
+}
+.section2 .heading,
+.section3 .heading,
+.section2 .heading2,
+.section3 .heading2{
+    color: white;
+}
+.section3{
+    width: 84%;
+    height: 100vh;
+    margin: 10px auto;
+    padding: 25px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/itab.1.1.png);
+}
+.row{
+    margin: 0px !important;
+}
+/* section4, section5 and section6 begin */
+.section4 .left-side,
+.section4 .right-side,
+.section5 .left-side,
+.section5 .right-side,
+.section6 .left-side,
+.section6 .right-side{
+    width: 100%;
+    height: 580px;
+    margin: 10px auto !important;
+    padding: 25px 0;
+    display: block;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+.section4 .heading,
+.section5 .heading,
+.section6 .heading{
+    text-align: center;
+    font-weight: 600;
+    line-height: 3.15rem;
+    font-size: 40px;
+    width: 70%;
+    margin: 5px auto;
+}
+.section4 .heading2,
+.section5 .heading2,
+.section6 .heading2{
+    font-size: 22px;
+    margin: 5px 0;
+    padding: 0 25px;
+    font-weight: 500;
+}
+.section4 img,
+.section5 img,
+.section6 img{
+    margin: 17px auto;
+    display: block;
+    width: 8rem;
+}
+.section4 a,
+.section5 a,
+.section6 a{
+    font-size: 18px;
+    padding: 0 10px;
     text-decoration: none;
 }
 
 
 
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-    ul{
-        padding: 0 15px;
-    }
-    
-    .navmenu{
-        display: inline;
-    }
-    .links{
-        display: none;
-    }
-    
-    .section1{
-        width: 80%;
-        height: 100vh;
-        margin: auto;
-        padding: 25px 0;
-        text-align: center;
-        min-height: 500px;
-        background-size: cover;
-        background-position: center;
-        background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/iphone12pro.1.0.png);
-    }
-    .section1 .link span a{
-        padding: 0 15px;
-    }
+/* section4 begin */
+.section4 .left-side{
+    background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/apple.product.1.2.jpg);
 }
-@media (max-width: 425px) {
-    .header2{
-        font-size: 12px;
-    }
-    .mobileview li a,
-    .desktop-view .logo a, 
-    .desktop-view .cart a{
-        font-size: 17px !important; 
-    }
+.section4 .right-side{
+    background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/watch.png);
+}
+.section4 .right-side .heading2{
+    color: white;
+    font-size: 22px;
 }
 
+
+
+/* section5 begin */
+.section5 .left-side{
+    background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/iMac.2.1.jpg);
+}
+.section5 .right-side{
+    background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/air.tag.png);
+}
+
+
+
+
+/* section6 begin */
+.section6 .left-side{
+    background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/ad.png);
+}
+.section6 .left-side .heading2{
+    margin: 10px auto;
+    display: block;
+    width: 60% !important;
+    color: white;
+    font-size: 20px;
+}
+.section6 .left-side a{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.section6 .right-side .heading2,
+.section6 .right-side a{
+    color: white;
+    position: relative;
+    bottom: 0;
+    z-index: 10000;
+}
+.section6 .right-side{
+    background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/ad.1.png);
+}
+.section6 .right-side img{
+    width: 4.5rem;
+}
 
 
 

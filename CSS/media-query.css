@@ -1,0 +1,145 @@
+@media (max-width: 1024px) {
+    .section4 .left-side{
+        background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/apple.product.1.0.png);
+    }
+    .section4 .left-side .heading{
+        text-align: center;
+        font-weight: 600;
+        line-height: 3.15rem;
+        font-size: 30px;
+        width: 70%;
+        margin: 15px auto;
+    }
+    .section4 .left-side a{
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .section6 .left-side .heading2 {
+        margin: 10px auto;
+        display: block;
+        width: 64% !important;
+        color: white;
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    ul{
+        padding: 0 15px;
+    }
+
+    /* heading1 begin */
+    .navmenu{
+        display: inline;
+    }
+    .links{
+        display: none;
+    }
+    
+    /* section1, section2 and section3 */
+    .section1 .heading,
+    .section2 .heading,
+    .section3 .heading{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .section1 .heading2,
+    .section2 .heading2,
+    .section3 .heading2{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .section1 .price,
+    .section2 .price,
+    .section3 .price{
+        font-weight: 400;
+        font-size: 18px;
+        color: #a0a0a0;
+        padding: 8px 0;
+    }
+    .section1 .link span a,
+    .section2 .link span a,
+    .section3 .link span a{
+        font-size: 15px;
+        padding: 0 20px;
+        text-decoration: none;
+    }
+
+    /* section1 begin */
+    .section1{
+        width: 80%;
+        height: 90vh;
+        margin: auto;
+        padding: 25px 0;
+        text-align: center;
+        min-height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/iphone12pro.1.0.png);
+    }
+    .section1 .link span a{
+        padding: 0 15px;
+    }
+
+    /* section2 begin */
+    .section2{
+        width: 80%;
+        height: 90vh;
+        margin: auto;
+        padding: 25px 0;
+        text-align: center;
+        min-height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/iphone12pro.2.0.png);
+    }
+    
+    /* section3 begin */
+    .section3{
+        width: 84%;
+        height: 85vh;
+        margin: 10px auto;
+        padding: 25px 0;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/itab.1.0.png);
+    }
+
+    /* section4 begin*/
+    
+    /* section4 begin*/
+    .section5 .left-side{
+        background-image: url(https://raw.githubusercontent.com/harshalgami13/IMAGE/main/Stock%20Images/iMac.2.0.png);
+    }
+}
+@media (max-width: 425px) {
+
+    .header2{
+        font-size: 12px;
+    }
+    .mobileview li a,
+    .desktop-view .logo a, 
+    .desktop-view .cart a{
+        font-size: 17px !important; 
+    }
+    .section4 .row>*,
+    .section5 .row>*,
+    .section6 .row>*{
+        padding: 0px;
+    }
+    .section4 .left-side .heading{
+        text-align: center;
+        font-weight: 600;
+        line-height: 2.5rem;
+        font-size: 30px;
+        width: 90%;
+        margin: 15px auto;
+    }
+    .section6 .left-side .heading2 {
+        margin: 10px auto;
+        display: block;
+        width: 90% !important;
+        color: white;
+        font-size: 20px;
+    }
+}
