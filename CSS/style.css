@@ -48,7 +48,6 @@ ul li.cart a{
 }
 .desktop-view li{
     text-align: center;
-    width: 30px;
 }
 .mobileview li{
     line-height: 25px;
@@ -247,6 +246,66 @@ ul{
     width: 4.5rem;
 }
 
+/* footer1 begin */
+.footer1 {
+    background-color: #f5f5f7;
+    padding: 0 10rem !important;
+}
+.footer1 .section7{
+    color: #86868b;
+    border-bottom: 1px solid #d2d2d7;
+    padding: 17px 0 11px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.footer1 .section8{
+    color: #515154;
+    border-bottom: 1px solid #d2d2d7;
+    padding: 17px 0 11px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.footer1 .section8 .title-footer{
+    font-weight: 600;
+    color: #626264;
+    margin-top: 15px;
+}
+.footer1 .section8 p{
+    color: #86868b !important;
+    margin-bottom: 0px;
+    padding: 17px 0 1px;
+    line-height: 12px;
+}
+.footer1 .section8 p a{
+    color: #86868b !important;
+    font-size: 12px !important;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.footer1 .section9{
+    color: #86868b !important;
+    border-bottom: 1px solid #d2d2d7;
+    padding: 17px 0 11px;
+    font-size: 12px !important;
+    font-weight: 500;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.footer1 .section9 ul{
+    justify-content: space-between;
+}
+.footer1 .section9 a{
+    color: #86868b !important;
+    font-size: 12px !important;
+    font-weight: 500;
+    padding: 0px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 
 
 
@@ -254,6 +313,14 @@ ul{
 
 
 
+
+
+
+
+::selection{
+    background-color: var(--dark-gray);
+    color: #d3d3d3;
+}
 :root{
     --main-color: #b3b3b3;
     --dark-gray: #333;
