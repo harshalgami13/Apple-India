@@ -11,4 +11,4 @@
 #### ❗ ❗ ❗ This website is only for practice purpose of HTML , CSS , JS ( jQuery ). Items are not for sale . ...
 
 ### Preview :point_down:
-<a href="https://harshalgami13.github.io/Apple-India/"><img src="Asstes/Screenshot (56).png"></a>
+<a href="https://harshalgami13.github.io/Apple-India/"><img src="Asstes/Screenshot (56).png"></a> 
